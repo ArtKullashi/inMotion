@@ -1,0 +1,65 @@
+.toggle-button-notclicked{
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    height: 35px;
+    width: 35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    
+}
+
+.toggle-button-notclicked:focus{
+    outline: none;
+}
+
+
+.toggle-button{
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    height: 35px;
+    width: 35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    
+}
+
+.toggle-button:focus{
+    outline: none;
+}
+
+.toggle-button__line{
+    width: 35px;
+    height: 3px;
+    background: white;
+    transition: all 0.2s ease;
+}
+
+.toggle-button__line-clicked{
+    width: 35px;
+    height: 2.6px;
+    background: black;
+    transition: all 0.2s ease;
+}
+
+.toggle-button div:nth-child(1){
+    transform: translateY(9px) rotateZ(45deg);
+}
+
+.toggle-button div:nth-child(2){
+    display: none;
+    
+}
+
+.toggle-button div:nth-child(3){
+    transform: translateY(-9px) rotateZ(-45deg);
+}

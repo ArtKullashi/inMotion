@@ -1,0 +1,133 @@
+.services-container {
+    padding: 100px;
+    background-color: #231F20; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.services-container-phone {
+    padding: 100px;
+    background-color: #231F20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.services-card1 {
+    margin-right: 1%;
+    background-image: url("./ServicesPics/pic1.jpg");
+    background-size:350px;
+    width:300px;
+    height: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+
+.services-card2 {
+    margin-right: 1%;
+    background-image: url("./ServicesPics/pic2.jpg");
+    background-size:350px;
+    width:300px;
+    height: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+
+.services-card3 {
+    margin-right: 1%;
+    background-image: url("./ServicesPics/pic3.jpg");
+    background-size:350px;
+    width:300px;
+    height: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+
+.services-card1-phone {
+    margin-bottom: 5%;
+    background-image: url("./ServicesPics/pic1.jpg");
+    background-size:350px;
+    width:300px;
+    height: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+.services-card2-phone {
+    margin-bottom: 5%;
+    background-image: url("./ServicesPics/pic2.jpg");
+    background-size:350px;
+    width:300px;
+    height: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+
+.services-card3-phone {
+    margin-bottom: 5%;
+    background-image: url("./ServicesPics/pic3.jpg");
+    background-size:350px;
+    width:300px;
+    height: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+
+.font{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 175px;
+    line-height: 18pt;
+    font-weight: medium;   
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    font-family: inherit;
+}
+button:focus {
+    outline: none; 
+}
+
+button:hover {
+    color: #FFFF2B;
+    transition: 0.6s;
+}
+
+h5{
+    font-family: inherit;
+    font-weight: medium;
+    margin-right: 30px;
+    margin-left: 30px;
+    line-height: 13pt;
+}
+
+.h5StyleClicked{
+    
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.h5StyleNotClicked {
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    opacity: 0;
+    
+
+}
+
+
+
+

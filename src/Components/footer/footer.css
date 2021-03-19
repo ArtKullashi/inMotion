@@ -1,0 +1,49 @@
+.footer{
+    background-color: #F7EC32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.footer-phone{
+    background-color: #F7EC32;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    height: auto;
+    width: 30px;
+    padding-right: 5px;
+}
+
+footer img:hover {
+    fill: white;
+}
+
+footer h4 {
+    color: black;
+    line-height: 2px;
+    font-weight: bold;
+}
+
+hr{
+    max-width: 50px;
+    border-color: black;
+    border-width: 2px;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+.footerText{
+    display: flex;
+    align-items: center;
+}
+
+.footerText-phone{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -1,13 +1,113 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  padding: 0;
+ }
+
+body {
+  background-color: #2b9fa7;
+  font-family: 'DINMedium';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#container{
+  /*margin: 0 auto;
+  max-width: 1200px; */
+  
 }
+
+.yellowSpace{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding:30px;
+  z-index:2;
+}
+
+.navBarContainer{
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  min-width: 500px;
+  left: 70%;
+  transform: translateX(-50%);
+  z-index:41;
+}
+.navBarContainer-phone{
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width: inherit;
+  transform: translateX(-50%);
+  z-index:41;
+  left: 90%;
+  margin-top: 10px;
+}
+
+nav{
+ float: right;
+ max-width:1000px;
+}
+
+.scrolledNav ul li a{
+  color: black;
+
+}
+.scrolledNav ul li a:hover{
+  color: white;
+  
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li{
+  float: left;
+  display: block;
+  margin-top: 20px;
+  padding: 0 20px;
+  
+}
+
+header ul li a{
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+}
+
+header ul li a:hover,
+header ul li a:active{
+  color: #FFFF2B;
+  transition: 0.4s; 
+}
+
+.sliderContainer{
+  height:100%;
+}
+
+.scroll {
+  opacity: 0.3;
+  background-color: aqua;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+  .scroll:hover {
+    opacity: 1;
+  }
+
+.arrow-up {
+  opacity: 0.5;
+  color: black;
+  position: fixed;
+  bottom: 6px;
+  right: 22px;
+}
+
+
